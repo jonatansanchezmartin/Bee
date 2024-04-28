@@ -1,0 +1,793 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FFC800;
+
+}
+
+h1{
+    font-size: 39px;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: black;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+button a{
+    color: white;
+}
+
+p{
+    color: black;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1% 10%;
+}
+
+nav a{
+    color: white;
+}
+
+.texto{
+    color: white;
+}
+
+.botonAmarillo{
+    background-color: #FFC800;
+    color: black;
+    padding: 10%;
+    border-radius: 5%;
+}
+
+.enlaceBoton{
+    color: black;
+}
+
+
+.logo{
+    display: flex;
+    flex: 1;
+}
+
+.abejaLogo{
+    width: 20px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 5%;
+    flex-grow: 1;
+    list-style-type: none;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: medium;
+}
+
+nav p{
+    color: white;
+}
+
+header{
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+}
+
+.Fila1Columna1{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Fila1Columna1 p{
+    margin-top: -2%;
+    font-size: 16px;
+    width: 100%;
+}
+
+.Fila1Columna2{
+    width: 45%;
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+
+.botonNegro{
+    background-color: black;
+    padding: 3%;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 3%;
+}
+
+.botonNegro a{
+    color: white;
+}
+
+#hombreTelefono{
+    width: 300px;
+}
+
+
+.fila2{
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+}
+
+
+.fila2{
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+}
+
+.col1fila2{
+    width: 45%;
+}
+
+.col2fila2{
+    width: 45%;
+}
+
+#llamadaJoven{
+    width: 350px;
+}
+
+
+.fila3{
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+}
+
+.col1fila3{
+    width: 45%;
+}
+
+.col2fila3{
+    width: 45%;
+}
+
+.fila4{
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5%;
+    background-color: white;
+    text-align: center;
+}
+
+
+.col1fila4{
+    width: 33%;
+}
+
+#phone{
+    width: 30px;
+}
+
+.col2fila4{
+    width: 33%;
+}
+
+.col3fila4{
+    width: 33%;
+}
+
+.fila5{
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5%;
+    text-align: center;
+}
+
+#jon{
+    width: 50px;
+    border-radius: 100%;
+}
+
+quote{
+    font-size: 24px;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    width: 60%;
+}
+
+
+.fila6{
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10%;
+}
+
+.bloqueFormulario{
+    width: 40%;
+}
+
+.mujerTexting{
+    width: 40%;
+    padding: 5%;
+}
+
+.imagenFormulario{
+    width: 150%;
+}
+
+form input{
+    width: 90%;
+    padding: 3%;
+    margin-top: 2%;
+}
+
+label{
+    font-size: 18px;
+}
+
+hr{
+    color: black;
+}
+
+.botonRegistrar{
+    background-color: black;
+    padding: 3%;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 1%;
+}
+
+.botonRegistrar a{
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+
+.menuFooter{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3%;
+    padding: 1% 10%;
+}
+
+.menuFooter{
+    width: 50%;
+}
+
+.menuFooter a{
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+}
+
+.menuFooter{
+    list-style-type: none;
+}
+
+footer p{
+    color: white;
+}
+
+
+.bloqueFiesta{
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.imagenFiesta{
+    width: 150%;
+}
+
+.formularioContacto{
+ width: 50%;
+}
+
+.botonesContacto{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    column-gap: 5%;
+}
+
+.row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.column {
+    border: 1px solid black;
+    padding: 20px;
+    flex: 1;
+}
+
+.bloqueListado{
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10%;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    width: 60%;
+    border: 1px solid black;
+  }
+
+
+
+  .numeroContactos {
+    grid-column: 1 / 7;
+    grid-row: 1;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 2%;
+  }
+
+  .buscadorContactos {
+    grid-column: 1 / 7;
+    grid-row: 2;
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 2%;
+  }
+
+  .oneOne {
+    grid-column: 1 / 4;
+    grid-row: 3;
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 4%;
+  }
+
+  .oneTwo {
+    grid-column: 4 / 7;
+    grid-row: 3;
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 4%;
+  }
+
+
+  .twoOne {
+    grid-column: 1 / 4;
+    grid-row: 4;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+  .twoTwo {
+    grid-column: 4 / 7;
+    grid-row: 4;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+  .threeOne {
+    grid-column: 1 / 4;
+    grid-row: 5;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+  .threeTwo {
+    grid-column: 4 / 7;
+    grid-row: 5;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+
+  .fourOne {
+    grid-column: 1 / 4;
+    grid-row: 6;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+  .fourTwo {
+    grid-column: 4 / 7;
+    grid-row: 6;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+
+  .fiveOne {
+    grid-column: 1 / 4;
+    grid-row: 7;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+  .fiveTwo {
+    grid-column: 4 / 7;
+    grid-row: 7;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+  .sixOne {
+    grid-column: 1 / 4;
+    grid-row: 8;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+  .sixTwo {
+    grid-column: 4 / 7;
+    grid-row: 8;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+
+  .sevenOne {
+    grid-column: 1 / 4;
+    grid-row: 9;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+  .sevenTwo {
+    grid-column: 4 / 7;
+    grid-row: 9;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+
+  .eightOne {
+    grid-column: 1 / 4;
+    grid-row: 10;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+  .eightTwo {
+    grid-column: 4 / 7;
+    grid-row: 10;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+  .nineOne {
+    grid-column: 1 / 4;
+    grid-row: 11;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+  .nineTwo {
+    grid-column: 4 / 7;
+    grid-row: 11;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+
+  .tenOne {
+    grid-column: 1 / 4;
+    grid-row: 12;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+  .tenTwo {
+    grid-column: 4 / 7;
+    grid-row: 12;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+  .elevenOne {
+    grid-column: 1 / 4;
+    grid-row: 13;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+  .elevenTwo {
+    grid-column: 4 / 7;
+    grid-row: 13;
+    border: 1px solid black;
+    background-color: white;
+    padding: 4%;
+  }
+
+
+
+  .paginacion {
+    grid-column: 1 / 7;
+    grid-row: 14;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 2%;
+  }
+
+  .botonCrearContacto{
+    align-self: start;
+    justify-self: start;
+    padding: 1%;
+  }
+
+  .buscadorContactos{
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+  }
+
+
+  .botonBuscarContacto{
+    color: white;
+    padding: 3%;
+    margin-left: 15px;
+  }
+
+  #search{
+    width: 55%;
+  }
+
+
+  .paginacion{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .textoBlanco a{
+    color: white;
+  }
+
+  .textoBlanco p{
+    color: white;
+  }
+
+  .textoBlanco{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5%;
+  }
+
+  .panelDeControl{
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    column-gap: 10%;
+  }
+
+
+  .bloqueProximosEventos{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10%;
+    width: 100%;
+  }
+
+  .panelDeControl2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bloqueTusContactos{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    column-gap: 20px;
+  }
+
+  .botonesContacto a{
+    padding: 3%;
+  }
+
+  .panelContacto{
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+  }
+
+  .perfil{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: minmax(250px, auto);
+    width: 60%;
+    border: 1px solid black;
+    grid-gap: 5%;
+  }
+
+
+  .fotoPerfil {
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+
+  .mercedes{
+    height: 250px;
+  }
+
+  .datosPerfil {
+    grid-column: 2 / 7;
+    grid-row: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+  }
+
+  .notasPerfil {
+    grid-column: 1 / 2;
+    grid-row: 2;
+    border: 1px solid black;
+    background-color: white;
+  }
+
+  .tituloNotas {
+    background-color: black;
+    padding: 1%;
+    padding-left: 5%;
+  }
+
+  .tituloNotas p {
+    color: white;
+  }
+
+  .textoNotas {
+    padding: 1%;
+    padding-left: 5%;
+  }
+
+
+
+
+  .recordatoriosPerfil {
+    grid-column: 2 / 7;
+    grid-row: 2;
+    border: 1px solid black;
+    background-color: white;
+  }
+
+
+  .tituloRecordatorios {
+    background-color: black;
+    padding: 1%;
+    padding-left: 5%;
+  }
+
+  .tituloRecordatorios p {
+    color: white;
+  }
+
+  .recordatorio1 {
+    padding: 1%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 2%;
+  }
+
+  .recordatorio1 i {
+    padding-top: 5%;
+  }
+
+
+
+
