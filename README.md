@@ -6,7 +6,7 @@ CRM to manage your contacts, keep in touch with your loved ones and remember the
 
 Welcome to Bee Personal CRM, a plataform to become a better person and strengthen your personal relationships.
 
-This project uses HTML, CSS y Javascript for the Frontend y PHP for the backend.
+This project uses HTML, CSS y Javascript for the Frontend.
 
 
 
@@ -14,19 +14,14 @@ This project uses HTML, CSS y Javascript for the Frontend y PHP for the backend.
 
 Developed for busy professionals that want to:
 
-1. 📅 Avoid forgetting birthday dates.
-
-2. 📞 Have more meaningful conversations with friends and family.
+1. 📞 Have more meaningful conversations with friends and family.
 
 
 
 
 ## 🚀 Features
 
-- 🧑‍🦱 Add and manage their contacts in one place.
-
-- 🔔 Create reminders to keep in touch and remember birthdays.
-
+- 🧑‍🦱 Add, udpdate and delete their contacts in one place.
 
 
 
