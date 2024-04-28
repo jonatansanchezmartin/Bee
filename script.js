@@ -16,7 +16,7 @@ addForm.addEventListener("submit", function(e){
 });
 
 
-
+// validación del formulario
 
 function validateForm(){
     let name = document.getElementById("name").value;
@@ -31,7 +31,8 @@ if(name === ""){
 }
 
 if(description === ""){
-    alert("Al menos un apellido requerido");
+    alert("Describe quién es para acordarte mejor");
     return false;
 }
+
 
