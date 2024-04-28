@@ -38,7 +38,7 @@
 </head>
 
 
-<body>
+<body onload="readAll()">
 
 <div class="container">
             
@@ -90,48 +90,76 @@
         </nav>
         
 
-        <section class="fila6">
+        <section class="seccionFormulario">
 
 
             <div class="formularioContacto">
 
-                <h2>
-                    Agregar contacto nuevo
-                <h2>
 
+                <form id="create_form">
 
-                <form id="CreateContact">
+                    <h2>
+                        Agrega tus contactos
+                    <h2>
 
                     <div>
                         <label for="name">Nombre</label><br>
-                        <input type="text" id="Name"/><br><br>
-                    </div>
-
-                    <div>
-                        <label for="lastName">Apellidos</label><br>
-                        <input type="text" id="lastName"/><br><br>
-                    </div>
-
-                    <div>
-                        <label for="nickName">Apodo</label><br>
-                        <input type="text" id="nickName"/><br><br>
-                    </div>
-
-                    <div>
-                        <label for="email">Email</label><br>
-                        <input type="email"/><br><br>
+                        <input type="text" id="name"/><br>
                     </div>
 
                     <div>
                         <label for="description">Breve descripción</label><br>
-                        <input type="text" id="description" placeholder="Ej. Vecina"/><br><br>
+                        <input type="text" id="description" placeholder="Ej. Vecina"/><br>                    </div>
+
+                    
+                    <div>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email"/><br><br> 
                     </div>
 
                     <div class="botonesContacto">
 
-                            <button type="submit" class="botonContacto" id="crear">
+                            <button type="button" onclick="create()" class="botonContacto" id="crear" onclick="AddData()">
                                 <a href="#">
                                     <b>Agregar<b>
+
+                                </a>
+                            </button>
+
+                    </div>
+
+                </form>
+
+                <form id="update_form">
+                    
+                <h4>
+                    Actualiza el contacto
+                </h4>
+
+                    <input type="text" hidden class="id"/>
+
+                    <div>
+                        <label for="name">Nombre</label><br>
+                        <input type="text" id="uname"/><br>
+                    </div>
+
+                    <div>
+                        <label for="description">Breve descripción</label><br>
+                        <input type="text" id="udescription" placeholder="Ej. Vecina"/><br>                    
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="uemail"/><br><br>                    
+                    </div>
+                    
+
+
+                    <div class="botonesContacto">
+
+                            <button type="button" onclick="edit()" class="botonContacto" id="update">
+                                <a href="#">
+                                    <b>Actualizar<b>
 
                                 </a>
                             </button>
@@ -141,9 +169,36 @@
 
                 </form>
 
+
             </div>
 
 </section>
+
+<hr>
+
+<section id="seccionTabla">
+    <table class="table table-bordered" id="contactTable">
+        
+        <thead>
+
+            <tr>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Email</th>
+                <th>Acciones</th>
+            </tr>
+
+        </thead>
+
+        <tbody class="table_data">
+
+        </tbody>
+
+    </table>
+</section>
+
+</br></br></br>
+
 
 
 <footer>
